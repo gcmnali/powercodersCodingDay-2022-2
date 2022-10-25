@@ -23,14 +23,11 @@ h1 {
 	margin-bottom: 10px;
 } 
 
-.eyes {
-	
-}
-
 .upper_body { 
 	width: 300px; 
 	height: 150px;
 	display: flex; 
+	margin: 0 auto;
 } 
 
 .left_arm, .right_arm { 
@@ -58,6 +55,10 @@ h1 {
 	height: 200px;
 	/* This is another useful property. Hmm what do you think it does?*/
 	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	gap: 20px;
 
 } 
 
@@ -68,8 +69,11 @@ h1 {
 } 
 
 .left_leg { 
-	margin-left: 45px; 
+	/*margin-left: 30px; */
 } 
+.right_leg { 
+	/*margin-right: 30px;*/
+}
 
 .left_leg:hover {
 	-webkit-transform: rotate(20deg);
@@ -77,10 +81,6 @@ h1 {
     -o-transform: rotate(20deg);
     -ms-transform: rotate(20deg);
     transform: rotate(20deg);
-}
-
-.right_leg { 
-	margin-left: 30px; 
 }
 
 .left_eye, .right_eye { 
@@ -103,8 +103,13 @@ h1 {
 	top: 100px; 
 	left: 120px; 
 }
-
-
+.eyes {
+	display: flex;
+}
+.android{
+	display: flex;
+	flex-direction: column;
+}
 
 
 
