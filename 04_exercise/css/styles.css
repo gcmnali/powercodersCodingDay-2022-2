@@ -35,32 +35,28 @@ html, body {
 body {
   background-color: #0c0b11;
 }
-
+main {
+  padding: 2vh 4vw;
+}
 section {
   margin-bottom: 1.5rem;
 }
-
-main {
-  padding: 2vh 4vw;
+picture {
+  margin-bottom: 1.5rem;
+  min-width: 0;
+  max-width: none;
+}
+.fig-1 {
+  max-width: 240px;
+}
+.fig-2 {
+  display: none;
 }
 
 img {
   max-width: none;
 }
 
-.fig-1 {
-  max-width: 240px;
-}
-
-picture {
-  margin-bottom: 1.5rem;
-  min-width: 0;
-  max-width: none;
-}
-
-.fig-2 {
-  display: none;
-}
 
 @supports (display: grid) {
   /* Text Elements */

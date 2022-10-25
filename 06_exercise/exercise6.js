@@ -13,5 +13,6 @@ Total points: 15
 
 getLastValue(["Monday","Thursday","Saturday","Wednesday","Tuesday"]);
 function getLastValue(arrOfStr){
+    console.log(arrOfStr.sort()[arrOfStr.length-1]);
     console.log(arrOfStr.sort().slice(arrOfStr.length-1,arrOfStr.length)[0]);
 }
